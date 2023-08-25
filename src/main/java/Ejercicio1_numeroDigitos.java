@@ -7,6 +7,12 @@ public class Ejercicio1_numeroDigitos {
         System.out.println("El resultados: " + resultado);
     }
 
+    /**
+     *  1. Cantidad de cifras de un número:
+     *     Hallar la cantidad de cifras de un número entero. Parámetro: n (número entero)
+     * @param n número
+     * @return
+     */
     private static int calcularCifras(int n) {
 
         if(n < 10){
