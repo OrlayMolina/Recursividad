@@ -1,4 +1,4 @@
-public class pila_fibonacci {
+public class Ejercicio0_pila_fibonacci {
 
     public static void main(String[] args) {
         int n = 5;
