@@ -15,7 +15,7 @@ public class Ejercicio7_buscarElementoArray {
     }
 
     /**
-     * 7. Recorrer un array de forma recursiva
+     * 7. Buscar un elemento en un array de forma recursiva.
      * @param array
      * @param inicial
      * @param fin
