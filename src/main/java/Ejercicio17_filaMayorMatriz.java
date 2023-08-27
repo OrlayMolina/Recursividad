@@ -15,7 +15,7 @@ public class Ejercicio17_filaMayorMatriz {
         int sumaFila = 0;
         lista = determinarFilaMayor(matriz, 0, sumatoriasFilas);
         sumaFila = filaMayorLista(lista, 0, lista.size()-1);
-        System.out.println("La fila cuya sumatoria es mayor dentro de la matriz es la fila " + sumaFila);
+        System.out.println("La fila cuya sumatoria es mayor dentro de la matriz es la fila " + lista.indexOf(sumaFila));
 
     }
 
@@ -57,15 +57,19 @@ public class Ejercicio17_filaMayorMatriz {
     /** CORREGIR
      * Método auxiliar para tomar la fila con la mayor sumatoria
      * @param posiciones
-     * @param inicial
-     * @param fin
+     * @param mayor
+     * @param indice
      */
-    public static int filaMayorLista(ArrayList<Integer> posiciones, int inicial, int fin){
+    public static int filaMayorLista(ArrayList<Integer> posiciones, int mayor, int indice){
 
-        if(inicial == fin){
-            return inicial;
+        if( indice < 0) {
+            return mayor;
         }else {
-            return inicial;
+            if (posiciones.get(indice) > mayor) {
+                return filaMayorLista(posiciones, posiciones.get(indice), --indice);
+            } else {
+                return filaMayorLista(posiciones, mayor, --indice);
+            }
         }
 
     }
