@@ -5,7 +5,7 @@ public class Ejercicio12_calcularPotencia {
     public static void main(String[] args) {
 
         int base = 2;
-        int exponente = 8;
+        int exponente = -3;
         System.out.println("El resultados es: " + calcularPotencia(base, exponente));
 
     }
