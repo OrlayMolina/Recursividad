@@ -13,9 +13,8 @@ public class Ejercicio15_promedioDiagonalPrincipal {
         System.out.println("El promedio de la diagonal principal es: " + promedio);
     }
 
-    // PREGUNTAR
     /**
-     * 9.  Sumar la diagonal de una matriz de forma recursiva.
+     * 15.  Hallar recursivamente el promedio de los elementos de la diagonal de una matriz cuadrada.
      * @param matriz
      * @param fila
      * @param columna
