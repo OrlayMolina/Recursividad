@@ -11,7 +11,7 @@ public class Ejercicio13_sumarDiagonalMatrizInversa {
             System.out.println("El resultado de la suma de la diagonal principal de la matriz es: " + sumaDiagonal);
     }
 
-    // CORREGIR
+    // PREGUNTAR
     /**
      * 13.  Programar un algoritmo recursivo que permita sumar la diagonal principal de una matriz.
      *      Filas y columnas avanzando.
