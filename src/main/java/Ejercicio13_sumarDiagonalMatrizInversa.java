@@ -13,7 +13,9 @@ public class Ejercicio13_sumarDiagonalMatrizInversa {
 
     // CORREGIR
     /**
-     * 9.   Sumar la diagonal de una matriz de forma recursiva.
+     * 13.  Programar un algoritmo recursivo que permita sumar la diagonal principal de una matriz.
+     *      Filas y columnas avanzando.
+     *      Parámetros( matriz, i, j)
      * @param matriz
      * @param fila
      * @param columna

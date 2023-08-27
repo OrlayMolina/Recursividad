@@ -12,7 +12,7 @@ public class Ejercicio9_sumarDiagonalMatriz {
         System.out.println("El resultado de la suma de la diagonal principal de la matriz es: " + sumaDiagonal);
     }
 
-    // CORREGIR
+
     /**
      * 9.   Sumar la diagonal de una matriz de forma recursiva.
      * @param matriz
