@@ -12,7 +12,9 @@ public class Ejercicio11_sumarElementosMatriz {
     }
 
     /**
-     * 8.   Recorrer una matriz de forma recursiva.
+     * 11.   Programar un algoritmo recursivo que permita sumar los elementos de una matriz.
+     *       El recorrido tiene que ser retrocediendo en columnas y avanzando en las filas.
+     *       Parámetros( matriz, i, j).
      * @param matriz
      * @param fila
      * @param columna

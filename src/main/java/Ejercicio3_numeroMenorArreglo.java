@@ -9,6 +9,7 @@ public class Ejercicio3_numeroMenorArreglo {
         System.out.println("El número menor del arreglo es: " + resultado);
     }
 
+    // CORREGIR
     /**
      * 3. Número menor arreglo
      *    El recorrido del arreglo se realiza de inicio a fin. El criterio de parada es cuando inicio y fin son iguales.
