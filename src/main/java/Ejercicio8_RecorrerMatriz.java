@@ -10,6 +10,12 @@ public class Ejercicio8_RecorrerMatriz {
         imprimirMatrizRecursiva(matriz, 0, 0);
     }
 
+    /**
+     * 8.   Recorrer una matriz de forma recursiva.
+     * @param matriz
+     * @param fila
+     * @param columna
+     */
     private static void imprimirMatrizRecursiva(int[][] matriz, int fila, int columna) {
         //fila - columna
         if(fila > matriz.length-1 || columna > matriz[columna].length-1){
