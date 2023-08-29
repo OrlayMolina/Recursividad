@@ -11,7 +11,7 @@ public class Ejercicio21_ordenarArrayAscendente {
     }
 
     /**
-     * 21. Ordenar un array de forma ascendente recursivamente. 
+     * 21. Ordenar un array de forma ascendente recursivamente.
      * @param array
      * @param indice
      * @return
