@@ -4,7 +4,7 @@ public class Ejercicio20_ordenarArrayDescendente {
 
     public static void main(String[] args) {
         
-        int[] array = {4,10,8,2,6,7};
+        int[] array = {1,4,8,24,6,7};
         int inicio = 0;
         ordenarDescendente(array, inicio);
         System.out.println("La lista ordenada es la siguiente: ");
