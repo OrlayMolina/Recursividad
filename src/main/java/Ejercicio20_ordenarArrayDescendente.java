@@ -6,30 +6,33 @@ public class Ejercicio20_ordenarArrayDescendente {
         
         int[] array = {4,10,8,2,6,7};
         int inicio = 0;
-        int menor = 20000;
-        ordenarDescendente(array, menor, inicio);
+        ordenarDescendente(array, inicio);
         System.out.println("La lista ordenada es la siguiente: ");
-        imprimirRecursivo(ordenarDescendente(array, inicio, menor), 0, array.length-1);
+        imprimirRecursivo(ordenarDescendente(array, inicio), 0, array.length-1);
         
     }
 
-    private static int[] ordenarDescendente(int[] array, int menor, int indice) {
-        if (indice == array.length) {
+    /**
+     * 20. Ordenar un array de forma descendente recursivamente.
+     * @param array
+     * @param indice
+     * @return
+     */
+    private static int[] ordenarDescendente(int[] array, int indice) {
+        if (indice == array.length - 1) {
             return array;
-        } else {
-            if (array[indice] <= menor) {
-                return ordenarDescendente(array, array[indice], ++indice);
-            } else {
-                int auxiliar = array[indice];
-                array[indice] = menor;
-                menor = auxiliar;
-                return ordenarDescendente(array, menor, ++indice);
+        } else if (array[indice] < array[indice + 1]) {
+            int auxiliar = array[indice];
+            array[indice] = array[indice + 1];
+            array[indice + 1] = auxiliar;
+            if (indice > 0) {
+                return ordenarDescendente(array, --indice);
             }
         }
+        return ordenarDescendente(array, ++indice);
     }
 
-
-
+    
     /**
      * Método auxiliar para solucionar el ejercicio
      * @param posiciones
