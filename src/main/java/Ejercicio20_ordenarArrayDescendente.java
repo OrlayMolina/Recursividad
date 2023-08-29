@@ -32,7 +32,7 @@ public class Ejercicio20_ordenarArrayDescendente {
         return ordenarDescendente(array, ++indice);
     }
 
-    
+
     /**
      * Método auxiliar para solucionar el ejercicio
      * @param posiciones
